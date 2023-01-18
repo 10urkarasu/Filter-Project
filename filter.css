@@ -1,0 +1,58 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container{
+    display: flex;
+    padding: 50px;
+}
+
+.leftmenu{
+    flex: 1;
+}
+.search{
+    padding: 10px;
+    width: 200px;
+    border: 1px solid #555;
+}
+
+h1{
+    font-size: 30px;
+    color: #555;
+    font-weight: 600;
+}
+.cats{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 5px;
+}
+
+
+.content{
+    flex: 4;
+}
+
+.products{
+display: flex;
+flex-wrap: wrap;
+gap: 10px;
+}
+
+.product{
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+}
+
+img{
+    width: 150px;
+    height: 250px;
+    object-fit: contain;
+}
+
+.priceText{
+    font-weight: 600;
+}
